@@ -12,6 +12,8 @@
 		8481B0A11D58189500D5C124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8481B09F1D58189500D5C124 /* Main.storyboard */; };
 		8481B0A31D58189500D5C124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8481B0A21D58189500D5C124 /* Assets.xcassets */; };
 		8481B0A61D58189500D5C124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8481B0A41D58189500D5C124 /* LaunchScreen.storyboard */; };
+		8481B0AE1D581ED200D5C124 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B0AD1D581ED200D5C124 /* AddViewController.swift */; };
+		8481B0B01D581FC700D5C124 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B0AF1D581FC700D5C124 /* BViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8481B0A21D58189500D5C124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8481B0A51D58189500D5C124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8481B0A71D58189500D5C124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8481B0AD1D581ED200D5C124 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		8481B0AF1D581FC700D5C124 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		8481B08F1D58189500D5C124 = {
 			isa = PBXGroup;
 			children = (
+				8481B0AF1D581FC700D5C124 /* BViewController.swift */,
+				8481B0AD1D581ED200D5C124 /* AddViewController.swift */,
 				8481B09A1D58189500D5C124 /* GtiDemo */,
 				8481B0991D58189500D5C124 /* Products */,
 			);
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8481B09E1D58189500D5C124 /* ViewController.swift in Sources */,
+				8481B0B01D581FC700D5C124 /* BViewController.swift in Sources */,
 				8481B09C1D58189500D5C124 /* AppDelegate.swift in Sources */,
+				8481B0AE1D581ED200D5C124 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				8481B0AC1D58189500D5C124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
