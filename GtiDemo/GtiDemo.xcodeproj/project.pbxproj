@@ -10,6 +10,7 @@
 		8481B09C1D58189500D5C124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B09B1D58189500D5C124 /* AppDelegate.swift */; };
 		8481B09E1D58189500D5C124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B09D1D58189500D5C124 /* ViewController.swift */; };
 		8481B0A11D58189500D5C124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8481B09F1D58189500D5C124 /* Main.storyboard */; };
+
 		8481B0A31D58189500D5C124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8481B0A21D58189500D5C124 /* Assets.xcassets */; };
 		8481B0A61D58189500D5C124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8481B0A41D58189500D5C124 /* LaunchScreen.storyboard */; };
 		8481B0AE1D581ED200D5C124 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B0AD1D581ED200D5C124 /* AddViewController.swift */; };
@@ -32,8 +33,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
+
 			runOnlyForDeploymentPostprocessing = 0;
-		};
+
+
+};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
